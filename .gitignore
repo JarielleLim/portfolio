@@ -2,3 +2,5 @@
 *.css.map
 prepros-6.config
 main.css
+
+#put main.css so it doesnt send the compiled version
