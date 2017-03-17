@@ -409,6 +409,10 @@ template {
 /*! ===== END GRIDS ===== */
 /*! ===== BASE ELEMENTS ===== */
 /*! Add all base element styles into this style sheet */
+h1 {
+  background: #FBB03B;
+  color: #F5EBE4; }
+
 /*! Add all helper classes into this style sheet */
 /*! For example: .clearfix { clear: both; } */
 /*! ===== END BASE ELEMENTS ===== */
