@@ -1,22 +1,95 @@
 .intro {
-  background-image: url("../img/gradient.svg");
-  background-size: cover;
-  max-height: 100%;
-
+    background-image: url("../img/gradient.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
 }
+// .intro .bgtest {
+//     position: absolute;
+//     z-index: -7;
+//     margin-top: 0;
+// }
 
 .welcome {
-  padding-top: 5em;
-}
+    padding-top: 5em;
 
-.welcome img{
-  max-width: 100%;
-  margin-bottom: 0;
+    img {
+        position: relative;
+        max-width: 500px;
+        padding-top: 7em;
+        z-index: 1;
+        margin: -5em;
+    }
 }
 
 #about {
-  background: $cream;
+    background: $cream;
+    position: relative;
     background-size: cover;
     margin: 0;
+    padding: 6em 9em 0em 9em;
 
+    h2 {
+        color: $magenta;
+    }
+
+    img {
+        width: 80%;
+    }
+}
+
+#skills {
+    background-image: url("../img/magenta-bg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    // position: relative;
+    //   padding: 9em;
+    // background-color: $magenta;
+    .skills-title {
+        padding-top: 16em;
+    }
+
+    h2 {
+        color: $gold;
+    }
+
+    .laptop {
+
+        width: 90%;
+    }
+
+}
+
+.flex-box-skill {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    justify-content: center;
+    max-width: 400px;
+
+    .skill-item {
+        padding: 2em;
+        text-align: center;
+    }
+
+    h3{
+      color: $cream;
+
+      font-size: 0.6em;
+      font-family: "league_spartan", arial, sans-serif;
+    }
+
+    img {
+        width: 3em;
+
+    }
 }

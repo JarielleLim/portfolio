@@ -1,6 +1,14 @@
 h1 {
     color: $cream;
-    padding:5em;
+    padding: 5em;
+    font-size: 3em;
+
+}
+
+em{
+      font-family: "raleway", arial, sans-serif;
+      font-style: normal;
+      font-size: 1em;
 }
 
 .nav-container {
@@ -8,26 +16,36 @@ h1 {
     top: 0;
     width: 100%;
     background: $cream;
+    z-index: 20;
 }
 
 .navigation {
-  float: right;
+    float: right;
+    padding: 0.5em 3em;
+
+    li {
+        display: inline;
+    }
+
+    a {
+        display: inline;
+        text-decoration: none;
+        font-family: "nexa_bold", arial, sans-serif;
+        color: $magenta;
+        letter-spacing: 0.3em;
+        font-size: 16px;
+        padding: 1em 2em;
+    }
+
+    a:hover, a:focus{
+      color: $olive;
+       transition: .3s ease;
+    }
+
 }
 
-.navigation li{
-      display: inline;
-}
-
-.navigation a {
-    display: inline;
-    text-decoration: none;
-    color: $magenta;
-    font-size: 18px;
-    padding: 1em 2em;
-}
-
-.logo{
-  float: left;
-  max-width:3em;
-  padding:0.5em;
+.logo {
+    float: left;
+    max-width: 3em;
+    padding: 0.5em;
 }

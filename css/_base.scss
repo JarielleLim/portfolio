@@ -1,1 +1,20 @@
 /*! Add all base element styles into this style sheet */
+h1 {
+    font-family: "nexa_bold", arial, sans-serif;
+    letter-spacing: 0.1em;
+}
+
+h2 {
+    font-family: "nexa_bold", arial, sans-serif;
+    letter-spacing: 0.05em;
+    font-size: 2em;
+    margin: 0;
+}
+
+p {
+    font-family: "raleway", arial, sans-serif;
+    line-height: 1.8em;
+    letter-spacing: 0.1em;
+    font-size: 14px;
+    color: $navy;
+}
