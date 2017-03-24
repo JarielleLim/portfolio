@@ -406,19 +406,104 @@ template {
 
 /*! ===== GRIDS ===== */
 /*! Add all grid styles into this style sheet */
+* {
+  box-sizing: border-box; }
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table; }
+
+[class*="col-"] {
+  padding: 15px;
+  float: left; }
+
+.col-1 {
+  width: 8.33%; }
+
+.col-2 {
+  width: 16.66%; }
+
+.col-3 {
+  width: 25%; }
+
+.col-4 {
+  width: 33.33%; }
+
+.col-5 {
+  width: 41.66%; }
+
+.col-6 {
+  width: 50%; }
+
+.col-7 {
+  width: 58.33%; }
+
+.col-8 {
+  width: 66.66%; }
+
+.col-9 {
+  width: 75%; }
+
+.col-10 {
+  width: 83.33%; }
+
+.col-11 {
+  width: 91.66%; }
+
+.col-12 {
+  width: 100%; }
+
 /*! ===== END GRIDS ===== */
 /*! ===== BASE ELEMENTS ===== */
 /*! Add all base element styles into this style sheet */
-h1 {
-  background: #FBB03B;
-  color: #F5EBE4; }
-
-.intro {
-  background-image: url(".../img/mainbg-01.png");
-  background-size: cover; }
-
 /*! Add all helper classes into this style sheet */
 /*! For example: .clearfix { clear: both; } */
+.intro {
+  background-image: url("../img/gradient.svg");
+  background-size: cover;
+  max-height: 100%; }
+
+.welcome {
+  padding-top: 5em; }
+
+.welcome img {
+  max-width: 100%;
+  margin-bottom: 0; }
+
+#about {
+  background: #F5EBE4;
+  background-size: cover;
+  margin: 0; }
+
+h1 {
+  color: #F5EBE4;
+  padding: 5em; }
+
+.nav-container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #F5EBE4; }
+
+.navigation {
+  float: right; }
+
+.navigation li {
+  display: inline; }
+
+.navigation a {
+  display: inline;
+  text-decoration: none;
+  color: #492939;
+  font-size: 18px;
+  padding: 1em 2em; }
+
+.logo {
+  float: left;
+  max-width: 3em;
+  padding: 0.5em; }
+
 /*! ===== END BASE ELEMENTS ===== */
 /*! ===== NAVIGATION ===== */
 /*! Add all main navigation styles into this style sheet */

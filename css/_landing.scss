@@ -1,0 +1,22 @@
+.intro {
+  background-image: url("../img/gradient.svg");
+  background-size: cover;
+  max-height: 100%;
+
+}
+
+.welcome {
+  padding-top: 5em;
+}
+
+.welcome img{
+  max-width: 100%;
+  margin-bottom: 0;
+}
+
+#about {
+  background: $cream;
+    background-size: cover;
+    margin: 0;
+
+}

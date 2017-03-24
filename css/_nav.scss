@@ -1,0 +1,33 @@
+h1 {
+    color: $cream;
+    padding:5em;
+}
+
+.nav-container {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: $cream;
+}
+
+.navigation {
+  float: right;
+}
+
+.navigation li{
+      display: inline;
+}
+
+.navigation a {
+    display: inline;
+    text-decoration: none;
+    color: $magenta;
+    font-size: 18px;
+    padding: 1em 2em;
+}
+
+.logo{
+  float: left;
+  max-width:3em;
+  padding:0.5em;
+}
