@@ -488,13 +488,6 @@ template {
 .grid-item-width2 {
   width: 50%; }
 
-.grid {
-  min-width: 100%;
-  margin: 5em; }
-
-.grid-item {
-  padding: 5em; }
-
 /*! ===== END GRIDS ===== */
 /*! ===== BASE ELEMENTS ===== */
 /*! Add all base element styles into this style sheet */
@@ -535,10 +528,10 @@ p {
 
 #about {
   background: #F5EBE4;
-  position: relative;
   background-size: cover;
-  margin: 0;
-  padding: 6em 9em 0; }
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto; }
   #about h2 {
     color: #492939; }
   #about img {
@@ -579,7 +572,7 @@ p {
     text-align: center; }
   .flex-box-skill h3 {
     color: #F5EBE4;
-    font-size: 0.6em;
+    font-size: 13px;
     font-family: "league_spartan", arial, sans-serif; }
   .flex-box-skill img {
     width: 3em; }
@@ -596,6 +589,42 @@ p {
     margin-left: 2em; }
   #work .dropchoice {
     display: inline; }
+
+#work-grid {
+  background: #F5EBE4; }
+  #work-grid img {
+    border: grey;
+    width: 200px;
+    text-align: center; }
+  #work-grid .grid-item {
+    background: white;
+    text-align: center;
+    border-radius: 5px;
+    margin: 3em; }
+  #work-grid .tag-flex {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  #work-grid .tag {
+    color: white;
+    background: #FBB03B;
+    text-align: center;
+    border-radius: 50px;
+    padding: 0.4em 1em;
+    margin: 0.3em;
+    font-size: 10px; }
 
 h1 {
   color: #F5EBE4;

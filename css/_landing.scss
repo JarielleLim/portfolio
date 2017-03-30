@@ -22,10 +22,7 @@
 
 #about {
     background: $cream;
-    position: relative;
-    background-size: cover;
-    margin: 0;
-    padding: 6em 9em 0;
+    @include bgimage;
 
     h2 {
         color: $magenta;
@@ -39,9 +36,7 @@
 #skills {
     background-image: url("../img/magenta-bg.svg");
     @include bgimage;
-    // position: relative;
-    //   padding: 9em;
-    // background-color: $magenta;
+
     .skills-title {
         padding-top: 16em;
     }
@@ -51,8 +46,10 @@
     }
 
     .laptop {
+
         width: 90%;
     }
+
 }
 
 .flex-box-skill {
@@ -73,28 +70,70 @@
         text-align: center;
     }
 
-    h3 {
-        color: $cream;
-        font-size: 0.6em;
-        font-family: $league;
+    h3{
+      color: $cream;
+      font-size: 13px;
+      font-family: "league_spartan", arial, sans-serif;
     }
 
     img {
         width: 3em;
+
     }
 }
 
-#work {
-    background-image: url("../img/gradient2.png");
-    @include bgimage;
+#work{
+  background-image: url("../img/gradient2.png");
+   @include bgimage;
 
-    img {
-        display: relative;
-        margin-bottom: -2em;
-        margin-left: 2em;
-    }
+   img {
+       display: relative;
+       margin-bottom: -2em;
+       margin-left: 2em;
+   }
 
-    .dropchoice{
-      display: inline;
-    }
+   .dropchoice{
+     display: inline;
+   }
+}
+
+#work-grid{
+
+  background: $cream;
+
+  img{
+    border: grey;
+    width: 200px;
+    text-align: center;
+  }
+
+  .grid-item{
+    background: white;
+    text-align: center;
+    border-radius: 5px;
+    margin: 3em;
+  }
+
+  .tag-flex{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
+
+  .tag{
+    color: white;
+    background: $gold;
+    text-align: center;
+    border-radius: 50px;
+    padding: 0.4em 1em;
+    margin: 0.3em;
+    font-size: 10px;
+  }
 }
