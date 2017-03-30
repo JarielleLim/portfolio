@@ -1,9 +1,6 @@
 .intro {
     background-image: url("../img/gradient.svg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: auto;
+    @include bgimage;
 }
 // .intro .bgtest {
 //     position: absolute;
@@ -28,7 +25,7 @@
     position: relative;
     background-size: cover;
     margin: 0;
-    padding: 6em 9em 0em 9em;
+    padding: 6em 9em 0;
 
     h2 {
         color: $magenta;
@@ -41,10 +38,7 @@
 
 #skills {
     background-image: url("../img/magenta-bg.svg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: auto;
+    @include bgimage;
     // position: relative;
     //   padding: 9em;
     // background-color: $magenta;
@@ -57,10 +51,8 @@
     }
 
     .laptop {
-
         width: 90%;
     }
-
 }
 
 .flex-box-skill {
@@ -81,15 +73,28 @@
         text-align: center;
     }
 
-    h3{
-      color: $cream;
-
-      font-size: 0.6em;
-      font-family: "league_spartan", arial, sans-serif;
+    h3 {
+        color: $cream;
+        font-size: 0.6em;
+        font-family: $league;
     }
 
     img {
         width: 3em;
+    }
+}
 
+#work {
+    background-image: url("../img/gradient2.png");
+    @include bgimage;
+
+    img {
+        display: relative;
+        margin-bottom: -2em;
+        margin-left: 2em;
+    }
+
+    .dropchoice{
+      display: inline;
     }
 }
