@@ -2,6 +2,7 @@
 h1 {
     font-family: $nexabold;
     letter-spacing: 0.1em;
+    text-align: left;
 }
 
 h2 {
@@ -17,4 +18,11 @@ p {
     letter-spacing: 0.1em;
     font-size: 14px;
     color: $navy;
+    text-align: left;
 }
+
+// body{
+//   max-width: 1240px;
+//   margin-left:auto;
+//      margin-right:auto;
+// }

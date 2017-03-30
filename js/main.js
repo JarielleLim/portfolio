@@ -1,7 +1,7 @@
 var $grid = $('.grid').isotope({
   // options
   itemSelector: '.grid-item',
-  layoutMode: 'fitRows'
+  layoutMode: 'masonry'
 });
 // filter items on button click
 $('.filter-button-group').on( 'click', 'button', function() {
