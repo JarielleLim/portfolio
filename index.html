@@ -101,18 +101,16 @@
     <section id="work">
         <div class="searchbar">
             <div class="row">
-                <div class="col-3">
+                <div class="col-2">
                     <img src="img/jari-hand.png" alt="jari">
                 </div>
-                <div class="col-9 dropchoice">
+                <div class="col-10 dropchoice">
                     <p>I want to see</p>
-                    <div class="dropdown">
-                        <button onclick="myFunction()" class="dropbtn">Dropdown</button>
-                        <div id="myDropdown" class="dropdown-content">
-                            <a href="#">Link 1</a>
-                            <a href="#">Link 2</a>
-                            <a href="#">Link 3</a>
-                        </div>
+                    <div class="button-group filter-button-group">
+                        <button data-filter="*">show all</button>
+                        <button data-filter=".illustration">illustrations</button>
+                        <button data-filter=".design">design</button>
+                        <button data-filter=".game">game</button>
                     </div>
                 </div>
             </div>
@@ -120,18 +118,37 @@
     </section>
 
     <section id="work-grid">
-        <div class="grid">
+      <div class="row">
+      <div class="col-3">&nbsp;</div>
+        <div class="grid col-9">
+            <div class="grid-item design">
+                <img src="img/notedlogo.png" alt="noted">
+                <div class="tag-flex">
+                    <div class="tag">graphic design</div>
+                    <div class="tag">web design</div>
+                    <div class="tag">team</div>
+
+                </div>
+            </div>
             <div class="grid-item illustration">
                 <img src="img/notedlogo.png" alt="noted">
                 <div class="tag-flex">
                     <div class="tag">graphic design</div>
-                      <div class="tag">web design</div>
-                      <div class="tag">team</div>
+                    <div class="tag">web design</div>
+                    <div class="tag">team</div>
                 </div>
-                <div class="grid-item graphicdesign"></div>
-                <div class="grid-item gamedesign"></div>
             </div>
-          </div>
+            <div class="grid-item game">
+                <img src="img/notedlogo.png" alt="noted">
+                <div class="tag-flex">
+                    <div class="tag">graphic design</div>
+                    <div class="tag">web design</div>
+                    <div class="tag">team</div>
+                </div>
+            </div>
+              </div>
+        </div>
+
     </section>
 
 
@@ -145,11 +162,10 @@
     <!--[if lt IE 9]>
       <script src="js/html5shiv.min.js"></script>
     <![endif]-->
-    <script src="/js/jquery-3.2.0.min.js"></script>
+    <script src="js/jquery-3.2.0.min.js"></script>
+    <script src="js/isotope.js"></script>
     <script src="js/main.js"></script>
-    <script src="/js/isotope.js"></script>
 
     <!-- END SCRIPTS -->
 </body>
-
 </html>

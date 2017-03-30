@@ -588,19 +588,25 @@ p {
     margin-bottom: -2em;
     margin-left: 2em; }
   #work .dropchoice {
-    display: inline; }
+    display: inline;
+    padding-top: 20%; }
 
 #work-grid {
-  background: #F5EBE4; }
+  background: #F5EBE4;
+  text-align: center; }
   #work-grid img {
     border: grey;
-    width: 200px;
+    width: 100%;
+    padding: 1em;
     text-align: center; }
+  #work-grid .grid {
+    padding: 3em; }
   #work-grid .grid-item {
     background: white;
     text-align: center;
     border-radius: 5px;
-    margin: 3em; }
+    margin: 1em;
+    padding: 1.5em; }
   #work-grid .tag-flex {
     display: -webkit-flex;
     display: -ms-flexbox;
