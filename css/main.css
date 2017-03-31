@@ -523,15 +523,34 @@ p {
   color: #222533;
   text-align: left; }
 
+.tag-flex {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.tag {
+  color: white;
+  background: #FBB03B;
+  text-align: center;
+  border-radius: 50px;
+  padding: 0.4em 1em;
+  margin: 0.3em;
+  font-size: 14px; }
+
 /*! Add all helper classes into this style sheet */
 /*! For example: .clearfix { clear: both; } */
-.intro {
-  background-image: url("../img/gradient.svg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: auto; }
-
 h1 {
   color: #F5EBE4;
   padding: 2em 1em 0em 1em;
@@ -665,30 +684,6 @@ em {
     font-size: 1.5rem;
     font-family: "nexa_bold", arial, sans-serif;
     letter-spacing: 4px; }
-  #work-grid .tag-flex {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center; }
-  #work-grid .tag {
-    color: white;
-    background: #FBB03B;
-    text-align: center;
-    border-radius: 50px;
-    padding: 0.4em 1em;
-    margin: 0.3em;
-    font-size: 14px; }
 
 .nav-container {
   position: fixed;
@@ -718,6 +713,60 @@ em {
   float: left;
   max-width: 3em;
   padding: 0.5em; }
+
+body {
+  /* feel free to change height */
+  height: 5000px;
+  background: linear-gradient(to bottom, #F5EBE4, #FBB03B); }
+
+#star-svg {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px; }
+
+.parallax-window {
+  min-height: 600px;
+  background: transparent; }
+
+.parallax-window2 {
+  min-height: 400px;
+  background: transparent; }
+
+.proj-title {
+  text-align: center; }
+
+.paper-container {
+  padding-top: 5em;
+  position: relative; }
+  .paper-container h1 {
+    position: absolute;
+    z-index: 35;
+    text-align: center;
+    color: #222533;
+    padding: 1em;
+    margin-left: -1em;
+    z-index: 1;
+    width: 110%; }
+  .paper-container .tag-flex {
+    position: absolute;
+    text-align: center;
+    width: 90%;
+    margin-top: 15em; }
+  .paper-container hr {
+    position: absolute;
+    border-top: 3px dashed #F5EBE4;
+    width: 70%;
+    text-align: center;
+    margin-top: 20em;
+    color: white;
+    margin-left: 5em; }
+
+.proj-intro-text {
+  margin-left: -1em;
+  text-align: center; }
 
 /*! ===== END BASE ELEMENTS ===== */
 /*! ===== NAVIGATION ===== */

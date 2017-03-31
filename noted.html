@@ -11,19 +11,43 @@
 <body>
     <!-- START HEADER -->
     <section class="nav-bar">
-        <ul class="navigation">
-            <li>About</li>
-            <li>Skills</li>
-            <li>Work</li>
-            <li>Contact</li>
-        </ul>
+        <div class="nav-container">
+            <img src="img/noted/moonbooks.png" alt="" class="logo">
+            <ul class="navigation">
+                <li><a href="index.html#about">ABOUT</a></li>
+                <li><a href="index.html#skills">SKILLS</a></li>
+                <li><a href="index.html#work">WORK</a></li>
+                <li><a href="index.html#contact">CONTACT</a></li>
+            </ul>
+        </div>
     </section>
     <!-- END HEADER -->
     <!-- START CONTENT -->
     <section class="proj-info">
-      <h1 class="proj-title">Noted</h1>
+        <div class="row">
+            <div class="col-2">&nbsp;</div>
+            <div class="col-8 paper-container">
+                <div class="proj-intro-text">
 
-      <div class="proj-specs">
+                    <h1 class="proj-title">NOTED</h1>
+
+                    <div class="tag-flex">
+                        <div class="tag">graphic design</div>
+                        <div class="tag">web design</div>
+                        <div class="tag">team</div>
+                    </div>
+                    <hr>
+                </div>
+                <img src="img/paper.svg" alt="paper">
+            </div>
+            <div class="col-2">&nbsp;</div>
+            <div class="parallax-window" data-parallax="scroll" data-image-src="img/gradient.png">
+            </div>
+        </div>
+    </section>
+
+
+    <div class="proj-specs">
         <h3 class="proj-spec-title">type</h3>
         <div class="tag-flex">
             <div class="tag">graphic design</div>
@@ -36,13 +60,24 @@
         <p>html, css</p>
         <h3 class="proj-spec-title">tools</h3>
         <p>photoshop, illustrator, html/css, github</p>
-      </div>
+    </div>
+
+
+    <section class="details">
+        <h2>Details</h2>
+        <p>Noted is a fictional e-commerce site dedicated to selling uniquw notebooks at an affordable price.</p>
     </section>
 
-    <section>
-      <h2>Details</h2>
-      <p>Noted is a fictional e-commerce site dedicated to selling uniquw notebooks at an affordable price.</p>
+    <section class="process">
+
+        <div class="row">
+            <h2>WIREFRAMING</h2>
+            <p>Working on this project involved a lot or wireframing to figure out the best ways to</p>
+        </div>
+
     </section>
+
+    <section class="final"></section>
 
     <!-- END CONTENT -->
     <!-- START FOOTER -->
@@ -52,7 +87,12 @@
     <!--[if lt IE 9]>
       <script src="js/html5shiv.min.js"></script>
     <![endif]-->
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/jquery-3.2.0.min.js"></script>
+    <script src="js/isotope.js"></script>
+    <script src="js/parallax.min.js"></script>
     <script src="js/main.js"></script>
+
     <!-- END SCRIPTS -->
 </body>
 
