@@ -4,24 +4,7 @@ body {
     background: linear-gradient( to bottom, $cream, $gold );
 }
 
-#star-svg {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    width: 150px;
-    height: 150px;
-    margin: -75px 0 0 -75px;
-}
 
-.parallax-window {
-    min-height: 600px;
-    background: transparent;
-}
-
-.parallax-window2 {
-    min-height: 400px;
-    background: transparent;
-}
 
 .proj-title {
     text-align: center;
