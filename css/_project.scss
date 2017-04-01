@@ -4,8 +4,6 @@ body {
     background: linear-gradient( to bottom, $cream, $gold );
 }
 
-
-
 .proj-title {
     text-align: center;
 }
@@ -13,41 +11,41 @@ body {
 .paper-container {
     padding-top: 5em;
     position: relative;
-    // img {
-    //     position: relative;
-    //
-    //     text-align: center;
-    //     height: auto;
-    //     z-index: -5;
-    //     margin-left: 2em;
-    //     margin-top: 10em;
-    // }
+
+    img {
+        position: absolute;
+        margin-left: 10%;
+    }
+
     h1 {
         position: absolute;
-        z-index: 35;
+        z-index: 3;
         text-align: center;
         color: $navy;
-        padding: 1em;
-        margin-left: -1em;
-        z-index: 1;
-        width: 110%;
+        left: 0;
+        right: 0;
     }
 
     .tag-flex {
         position: absolute;
         text-align: center;
-        width: 90%;
-        margin-top: 15em;
+        margin-top: 20em;
+        z-index: 3;
+        left: 0;
+        right: 0;
     }
 
     hr {
         position: absolute;
+        background: transparent;
         border-top: 3px dashed $cream;
         width: 70%;
         text-align: center;
-        margin-top: 20em;
+        margin-top: 25rem;
         color: white;
-        margin-left: 5em;
+    z-index: 3;
+    left: 0;
+    right: 0;
     }
 }
 
