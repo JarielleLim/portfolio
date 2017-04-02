@@ -15,6 +15,7 @@ body {
     img {
         position: absolute;
         margin-left: 10%;
+        margin-top: 5%;
     }
 
     h1 {
@@ -38,14 +39,15 @@ body {
     hr {
         position: absolute;
         background: transparent;
+        border: 0;
         border-top: 3px dashed $cream;
         width: 70%;
         text-align: center;
         margin-top: 25rem;
         color: white;
-    z-index: 3;
-    left: 0;
-    right: 0;
+        z-index: 3;
+        left: 0;
+        right: 0;
     }
 }
 
@@ -53,3 +55,36 @@ body {
     margin-left: -1em;
     text-align: center;
 }
+
+.basic-info {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin:2% 5%;
+}
+
+.details,
+.proj-specs {
+    z-index: 20;
+}
+
+.proj-specs{
+  padding-right:1.5em;
+
+}
+
+.details{
+border-left: 3px solid $cream;
+ padding-left: 2em;
+}
+// .proj-specs{
+//   position: absolute;
+//   z-index: 3;
+//   background: transparent;
+// }
+//
+// .proj-info{
+//   position: absolute;
+//   z-index: 3;
+//   background: transparent;
+// }
