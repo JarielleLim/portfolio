@@ -11,5 +11,5 @@ $('.filter-button-group').on( 'click', 'button', function() {
 });
 
 // initialize parallax~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+$('.no-parallax').addClass('parallax-window')
 $('.parallax-window').parallax({imageSrc: 'img/gradient.png'});
-$('.parallax-window2').parallax({imageSrc: 'img/gradient.svg'});

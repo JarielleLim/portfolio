@@ -44,14 +44,15 @@ p {
     font-size: 14px;
 }
 
-.parallax-window {
-    min-height: 500px;
-    background: transparent;
+.no-parallax {
+    background-image: url(../img/gradient.png);
+    background-position: cover;
+    background-repeat: no-repeat;
+    min-height: 400px;
 }
 
-.parallax-window2 {
-    min-height: 400px;
-    background: transparent;
+.parallax-window {
+    background: transparent !important;
 }
 
 // body{

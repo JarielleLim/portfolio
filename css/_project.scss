@@ -9,43 +9,61 @@ body {
 }
 
 .paper-container {
-    padding-top: 5em;
+    margin-top: 10rem;
     position: relative;
 
-    img {
-        position: absolute;
-        margin-left: 10%;
-        margin-top: 5%;
+    .paper-header,
+    .paper-footer {
+      position: relative;
+      margin: 0;
+      padding: 0;
+      z-index: -1;
+    }
+
+    .paper-footer {
+      margin-top: -0.5rem;
+    }
+
+    .paper-content {
+      background-image: url(../img/paper-content.svg);
+      background-repeat: repeat-y;
+      background-size: 100%;
+      background-position: left;
+      margin-top: -0.25rem;
+      position: relative;
+      z-index: 10;
+      width: 100%;
+
+      .content {
+        margin-top: -15rem;
+        position: relative;
+        z-index: 10;
+        width: 100%;
+      }
     }
 
     h1 {
-        position: absolute;
-        z-index: 3;
         text-align: center;
         color: $navy;
+        margin: 0;
+        padding: 0;
         left: 0;
         right: 0;
     }
 
     .tag-flex {
-        position: absolute;
         text-align: center;
-        margin-top: 20em;
-        z-index: 3;
         left: 0;
         right: 0;
     }
 
     hr {
-        position: absolute;
         background: transparent;
         border: 0;
         border-top: 3px dashed $cream;
         width: 70%;
         text-align: center;
-        margin-top: 25rem;
         color: white;
-        z-index: 3;
         left: 0;
         right: 0;
     }
@@ -57,20 +75,13 @@ body {
 }
 
 .basic-info {
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin:2% 5%;
 }
 
 .details,
 .proj-specs {
-    z-index: 20;
 }
 
 .proj-specs{
-  padding-right:1.5em;
-
 }
 
 .details{
