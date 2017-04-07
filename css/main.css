@@ -410,21 +410,43 @@ template {
   src: url("../fonts/nexa_bold-webfont.woff2") format("woff2"), url("../fonts/nexa_bold-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
+
 @font-face {
   font-family: 'nexa_light';
   src: url("../fonts/nexa_light-webfont.woff2") format("woff2"), url("../fonts/nexa_light-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
+
 @font-face {
   font-family: 'raleway';
   src: url("../fonts/raleway_thin-webfont.woff2") format("woff2"), url("../fonts/raleway_thin-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
+
 @font-face {
   font-family: 'league_spartan';
   src: url("../fonts/leaguespartan-bold-webfont.woff2") format("woff2"), url("../fonts/leaguespartan-bold-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
+
+@font-face {
+  font-family: 'open_sanslight';
+  src: url("opensans-light-webfont.woff2") format("woff2"), url("opensans-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'open_sansbold';
+  src: url("opensans-bold-webfont.woff2") format("woff2"), url("opensans-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'open_sansregular';
+  src: url("opensans-regular-webfont.woff2") format("woff2"), url("opensans-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
 /*! ===== GRIDS ===== */
 /*! Add all grid styles into this style sheet */
 * {
@@ -477,6 +499,7 @@ template {
 @media (min-width: 700px) {
   .welcome img {
     margin-bottom: 0; } }
+
 .grid-item {
   width: 25%; }
 
@@ -498,7 +521,7 @@ h2 {
   margin: 0; }
 
 p {
-  font-family: "raleway", arial, sans-serif;
+  font-family: "open_sanslight", arial, sans-serif;
   line-height: 1.8em;
   letter-spacing: 0.1em;
   font-size: 14px;
@@ -507,14 +530,19 @@ p {
 
 .tag-flex {
   display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   -webkit-align-items: center;
+  -ms-flex-align: center;
   align-items: center;
   -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
   -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center; }
 
 .tag {
@@ -586,14 +614,19 @@ em {
 
 .flex-box-skill {
   display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   -webkit-align-items: center;
+  -ms-flex-align: center;
   align-items: center;
   -webkit-flex-direction: row;
+  -ms-flex-direction: row;
   flex-direction: row;
   -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   -webkit-justify-content: center;
+  -ms-flex-pack: center;
   justify-content: center;
   max-width: 500px; }
   .flex-box-skill .skill-item {
@@ -668,14 +701,19 @@ em {
     letter-spacing: 4px; }
   #work-grid .tag-flex {
     display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     -webkit-align-items: center;
+    -ms-flex-align: center;
     align-items: center;
     -webkit-flex-direction: row;
+    -ms-flex-direction: row;
     flex-direction: row;
     -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     -webkit-justify-content: center;
+    -ms-flex-pack: center;
     justify-content: center; }
   #work-grid .tag {
     color: white;
