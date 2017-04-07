@@ -4,23 +4,32 @@
 	 viewBox="0 0 1213.2 561.9" style="enable-background:new 0 0 1213.2 561.9;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#E8EDEB;}
-	.st1{opacity:0.2;enable-background:new    ;}
-	.st2{fill:#768A24;}
-	.st3{fill:#FFFFFF;}
+	.st1{opacity:0.2;clip-path:url(#SVGID_2_);enable-background:new    ;}
+	.st2{opacity:0.2;enable-background:new    ;}
+	.st3{fill:#768A24;}
+	.st4{fill:#FFFFFF;}
 </style>
 <title>paper</title>
 <g id="Layer_2">
 	<g id="Layer_9">
 		<polygon class="st0" points="106.2,561.9 159.4,0 1124,91.2 1080.3,561.9 		"/>
-		<path class="st1" d="M917.6,367.1h230.2c11.6,0,20.9,9.4,20.9,20.9v62.8c0,11.6-9.4,20.9-20.9,20.9H917.6
+		<g>
+			<defs>
+				<polygon id="SVGID_1_" points="106.2,561.9 159.4,0 1124,91.2 1080.3,561.9 				"/>
+			</defs>
+			<clipPath id="SVGID_2_">
+				<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+			</clipPath>
+			<rect x="15.2" y="55.6" class="st1" width="1080.3" height="506.3"/>
+		</g>
+		<path class="st2" d="M917.6,367.1h230.2c11.6,0,20.9,9.4,20.9,20.9v62.8c0,11.6-9.4,20.9-20.9,20.9H917.6
 			c-11.6,0-20.9-9.4-20.9-20.9V388C896.7,376.5,906,367.1,917.6,367.1z"/>
-		<path class="st2" d="M910.6,360.1h230.2c11.6,0,20.9,9.4,20.9,20.9v62.8c0,11.6-9.4,20.9-20.9,20.9H910.6
+		<path class="st3" d="M910.6,360.1h230.2c11.6,0,20.9,9.4,20.9,20.9v62.8c0,11.6-9.4,20.9-20.9,20.9H910.6
 			c-11.6,0-20.9-9.4-20.9-20.9V381C889.7,369.5,899.1,360.1,910.6,360.1z"/>
-		<rect x="15.2" y="619.9" class="st1" width="1080.3" height="503.1"/>
-		<path class="st1" d="M962,216.8h230.2c11.6,0,20.9,9.4,20.9,20.9v62.8c0,11.6-9.4,20.9-20.9,20.9H962c-11.6,0-20.9-9.4-20.9-20.9
+		<path class="st2" d="M962,216.8h230.2c11.6,0,20.9,9.4,20.9,20.9v62.8c0,11.6-9.4,20.9-20.9,20.9H962c-11.6,0-20.9-9.4-20.9-20.9
 			v-62.8C941.1,226.2,950.4,216.8,962,216.8z"/>
-		<rect y="40.4" class="st3" width="1080.3" height="521.5"/>
-		<path class="st2" d="M956.8,211.6H1187c11.6,0,20.9,9.4,20.9,20.9v62.8c0,11.6-9.4,20.9-20.9,20.9H956.8
+		<rect y="40.4" class="st4" width="1080.3" height="521.5"/>
+		<path class="st3" d="M956.8,211.6H1187c11.6,0,20.9,9.4,20.9,20.9v62.8c0,11.6-9.4,20.9-20.9,20.9H956.8
 			c-11.6,0-20.9-9.4-20.9-20.9v-62.8C935.8,221,945.2,211.6,956.8,211.6z"/>
 	</g>
 </g>

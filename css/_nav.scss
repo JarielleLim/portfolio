@@ -38,3 +38,19 @@
     max-width: 3em;
     padding: 0.5em;
 }
+
+#contact{
+  background-color: $magenta;
+  text-align: center;
+  padding:5em;
+
+  h2{
+    color:$cream;
+  }
+
+  h3{
+    color: $gold;
+    font-family: $raleway;
+    letter-spacing: 1px;
+  }
+}
