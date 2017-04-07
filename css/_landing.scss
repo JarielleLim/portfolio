@@ -16,8 +16,6 @@ em {
     padding-top: 5em;
     @include flexcenter;
 
-    .jari-pic {}
-
     .welcome-text {
         color: $navy;
     }
@@ -146,8 +144,14 @@ em {
         transition: 0.3s ease;
     }
 
-    button:visited {
+    button:focus{
+      outline:0;
+    }
+
+    .active {
         background-color: $olive;
+        border-color: $olive;
+        transition: 0.3s ease;
     }
 }
 
