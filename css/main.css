@@ -737,9 +737,7 @@ body {
   text-align: center; }
 
 .paper-header {
-  background-repeat: no-repeat;
-  background-size: 100%;
-  margin-left: -3.8%;
+  margin-right: -12%;
   margin-top: -3.8%; }
 
 .paper-container {
@@ -759,6 +757,7 @@ body {
     z-index: 10;
     width: 100%; }
     .paper-container .paper-content .content {
+      margin-top: -9rem;
       position: relative;
       z-index: 10;
       width: 100%; }
