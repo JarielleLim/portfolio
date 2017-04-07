@@ -1,7 +1,6 @@
 body {
-    /* feel free to change height */
-    // height: 5000px;
-    // background: linear-gradient( to bottom, $cream, $gold );
+    background: $cream;
+    //background: linear-gradient( to bottom, $cream, $gold );
 }
 
 .proj-title {
@@ -60,6 +59,19 @@ body {
         right: 0;
     }
 
+    h2{
+      color: $magenta;
+      font-family: $raleway;
+      font-size: 1.5em;
+    }
+
+   h3{
+      color: $magenta;
+      font-family: $raleway;
+      font-size: 1.5em;
+      margin: 0;
+    }
+
     hr {
         background: transparent;
         border: 0;
@@ -74,21 +86,57 @@ body {
     }
 }
 
+.proj-specs{
+      padding-right: 1.5em;
+}
+
 .proj-intro-text {
     margin-left: -1em;
     text-align: center;
 }
 
 .basic-info {
-  padding-bottom: 5em;
+    padding-bottom: 5em;
 }
-
-.details,
-.proj-specs {}
-
-.proj-specs {}
 
 .details {
     border-left: 3px solid $cream;
     padding-left: 2em;
+}
+
+.main-content {
+    @include flexcenter;
+
+
+    h2 {
+        color: $magenta;
+            padding-top: 3em;
+    }
+
+    hr {
+        background: transparent;
+        border: 0;
+        border-top: 3px dashed white;
+        text-align: center;
+        color: white;
+        left: 0;
+        right: 0;
+        margin-bottom: 3em;
+    }
+
+    .info{
+            text-align: center;
+    }
+
+    img{
+      width: 90%;
+    }
+
+    .imagesorter{
+        @include flexcenter;
+    }
+    .imagesorter img{
+        width: 40em;
+        padding: 1em;
+    }
 }

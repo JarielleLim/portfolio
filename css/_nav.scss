@@ -10,10 +10,18 @@
 
 .navigation {
     float: right;
-    padding: 0.5em 3em;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: right;
+    align-items: right;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-justify-content: center;
+    justify-content: center;
 
     li {
         display: inline;
+        padding: 0.5em;
     }
 
     a {
