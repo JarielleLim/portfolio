@@ -48,11 +48,12 @@ p {
     background-image: url(../img/gradient.png);
     background-position: cover;
     background-repeat: no-repeat;
-    min-height: 400px;
+    min-height: 600px;
 }
 
 .parallax-window {
     background: transparent !important;
+      min-height: 600px;
 }
 
 // body{

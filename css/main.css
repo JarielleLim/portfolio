@@ -504,10 +504,11 @@ p {
   background-image: url(../img/gradient.png);
   background-position: cover;
   background-repeat: no-repeat;
-  min-height: 400px; }
+  min-height: 600px; }
 
 .parallax-window {
-  background: transparent !important; }
+  background: transparent !important;
+  min-height: 600px; }
 
 /*! Add all helper classes into this style sheet */
 /*! For example: .clearfix { clear: both; } */
@@ -826,7 +827,7 @@ body {
     z-index: 10;
     width: 100%; }
     .paper-container .paper-content .content {
-      margin-top: -9rem;
+      margin-top: -35%;
       position: relative;
       z-index: 10;
       width: 100%; }
@@ -849,11 +850,16 @@ body {
     text-align: center;
     color: white;
     left: 0;
-    right: 0; }
+    right: 0;
+    margin-top: 3em;
+    margin-bottom: 3em; }
 
 .proj-intro-text {
   margin-left: -1em;
   text-align: center; }
+
+.basic-info {
+  padding-bottom: 5em; }
 
 .details {
   border-left: 3px solid #F5EBE4;
