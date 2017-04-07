@@ -71,6 +71,9 @@
         h1 {
             padding: 1em 0 0;
             text-align: center;
+            font-size: 3rem;
+            padding:0em 1em;
+            margin-top: 3em;
         }
 
         .welcome-skills {
@@ -95,24 +98,63 @@
         }
     }
 
-    #about .about-flex {
-        flex-direction: column;
-        text-align: center;
-        width: 100%;
+    #about {
+        .about-flex {
+            flex-direction: column;
+            text-align: center;
+            width: 100%;
+        }
+
+        h2 {
+            text-align: center;
+            padding: 1em;
+        }
+
+        .about-text {
+            width: 85%;
+            font-size: 80%;
+        }
     }
 
-    #about h2 {
-        text-align: center;
-        padding: 1em;
+    #work {
+        h2 {
+            text-align: center;
+            padding: 0 1em;
+        }
+
+        .flex-pic img {
+            width: 20%;
+            margin-left: 3em;
+            visibility: hidden;
+        }
+
+        .button-group {
+            padding: 0 3em;
+            text-align: center;
+        }
     }
 
-    #about .about-text {
-        width: 85%;
-        font-size: 80%;
+    #work-grid {
+        .grid {
+            padding: 0;
+        }
+
+        .grid-item{
+        width:40%;
+        }
     }
 
     p {
         text-align: center;
     }
+
+
 }
-@media (max-width: 600px) {}
+@media (max-width: 600px) {
+
+  #work-grid{
+    .grid-item{
+       width: 90%;
+    }
+  }
+}

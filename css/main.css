@@ -540,6 +540,9 @@ em {
   justify-content: center; }
   .welcome .welcome-text {
     color: #222533; }
+  .welcome .welcome-skills {
+    line-height: 2.6em;
+    font-size: 0.9rem; }
   .welcome .jari-pic img {
     position: relative;
     max-width: 500px;
@@ -593,14 +596,28 @@ em {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: auto; }
-  #skills .skills-title {
-    padding-top: 16em; }
+  height: auto;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-top: 10em; }
   #skills h2 {
     color: #FBB03B;
-    text-align: left; }
-  #skills .laptop {
-    width: 90%; }
+    text-align: center;
+    padding: 1em;
+    padding-left: 0; }
 
 .flex-box-skill {
   display: -webkit-flex;
@@ -618,7 +635,8 @@ em {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  max-width: 500px; }
+  max-width: 500px;
+  padding-top: 4em; }
   .flex-box-skill .skill-item {
     padding: 2em;
     text-align: center; }
@@ -652,10 +670,19 @@ em {
     -ms-flex-pack: center;
     justify-content: center; }
   #work .flex-text {
-    padding-top: 5em; }
+    padding-top: 5em;
+    -webkit-order: 2;
+    -ms-flex-order: 2;
+    order: 2; }
+  #work .flex-pic {
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+    margin-left: -5em; }
   #work img {
     margin-bottom: -2em;
-    margin-left: 2em; }
+    margin-left: 2em;
+    text-align: center; }
   #work h2 {
     font-family: "raleway", arial, sans-serif;
     color: white;
@@ -680,31 +707,27 @@ em {
   #work button:focus {
     outline: 0; }
   #work .active {
-    background-color: #76BA24;
-    border-color: #76BA24;
+    background-color: #FBB03B;
+    border-color: #FBB03B;
     transition: 0.3s ease; }
 
 #work-grid {
   background: #F5EBE4;
-  text-align: center; }
-  #work-grid .clouds img {
-    padding-top: 4em;
-    margin-left: 2em;
-    text-align: center; }
+  width: 100%; }
   #work-grid .grid-item img {
     border: grey;
     width: 100%;
     padding: 1em;
     text-align: center; }
   #work-grid .grid {
-    padding: 3em;
-    text-align: center; }
+    padding: 3em; }
   #work-grid .grid-item {
     background: white;
     text-align: center;
     border-radius: 15px;
     margin: 1em;
-    padding: 1.5em; }
+    padding: 1.5em;
+    width: 27%; }
   #work-grid .grid-item h2 {
     border-bottom: 1px solid #F5EBE4;
     color: #492939;
@@ -758,7 +781,7 @@ em {
     font-size: 16px;
     padding: 1em 2em; }
   .navigation a:hover, .navigation a:focus {
-    color: #76BA24;
+    color: #768A24;
     transition: .3s ease; }
 
 .logo {
@@ -894,7 +917,10 @@ body {
 @media (max-width: 900px) {
   .welcome h1 {
     padding: 1em 0 0;
-    text-align: center; }
+    text-align: center;
+    font-size: 3rem;
+    padding: 0em 1em;
+    margin-top: 3em; }
   .welcome .welcome-skills {
     text-align: center;
     width: 100%; }
@@ -924,8 +950,26 @@ body {
   #about .about-text {
     width: 85%;
     font-size: 80%; }
+  #work h2 {
+    text-align: center;
+    padding: 0 1em; }
+  #work .flex-pic img {
+    width: 20%;
+    margin-left: 3em;
+    visibility: hidden; }
+  #work .button-group {
+    padding: 0 3em;
+    text-align: center; }
+  #work-grid .grid {
+    padding: 0; }
+  #work-grid .grid-item {
+    width: 40%; }
   p {
     text-align: center; } }
+
+@media (max-width: 600px) {
+  #work-grid .grid-item {
+    width: 90%; } }
 
 /*! ===== END GRIDS ===== */
 /*! ===== NAVIGATION ===== */
