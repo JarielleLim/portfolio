@@ -1,12 +1,7 @@
 .intro {
-    // background-image: url("../img/gradient.svg");
-    // @include bgimage;
+
+
 }
-// .intro .bgtest {
-//     position: absolute;
-//     z-index: -7;
-//     margin-top: 0;
-// }
 
 h1 {
     color: $cream;
@@ -23,6 +18,7 @@ em{
 
 .welcome {
     padding-top: 5em;
+    @include flexcenter;
 
     img {
         position: relative;
@@ -68,16 +64,7 @@ em{
 }
 
 .flex-box-skill {
-    display: -webkit-flex;
-    display: flex;
-    -webkit-align-items: center;
-    align-items: center;
-    -webkit-flex-direction: row;
-    flex-direction: row;
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-justify-content: center;
-    justify-content: center;
+    @include flexcenter;
     max-width: 500px;
 
     .skill-item {
@@ -99,6 +86,14 @@ em{
 #work {
     background-image: url("../img/gradient2.png");
     @include bgimage;
+
+    .searchbar-flex{
+        @include flexcenter;
+    }
+
+    .flex-text{
+      padding-top: 5em;
+    }
 
     img {
         margin-bottom: -2em;
