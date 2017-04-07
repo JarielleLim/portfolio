@@ -572,7 +572,7 @@ p {
 /*! For example: .clearfix { clear: both; } */
 h1 {
   color: #F5EBE4;
-  padding: 2em 1em 0em 1em;
+  padding: 2em 1em 0;
   font-size: 5em; }
 
 em {
@@ -610,13 +610,40 @@ em {
   background-repeat: no-repeat;
   width: 100%;
   height: auto; }
+  #about .about-flex {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 70%;
+    padding-top: 4em; }
+  #about .about-image {
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    text-align: center; }
+    #about .about-image img {
+      width: 70%; }
+  #about .about-text {
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    width: 40%; }
   #about h2 {
     color: #492939;
     text-align: left;
     padding-top: 3em; }
-  #about img {
-    width: 80%;
-    margin-left: 2em; }
 
 #skills {
   background-image: url("../img/magenta-bg.svg");
@@ -701,12 +728,12 @@ em {
     border-radius: 50px;
     padding: 1em 2em;
     margin: 1em 0.3em;
-    transition: .3s ease; }
+    transition: 0.3s ease; }
   #work button:hover {
     background-color: #FBB03B;
     color: white;
     border-color: #FBB03B;
-    transition: .3s ease; }
+    transition: 0.3s ease; }
   #work button:visited {
     background-color: #76BA24; }
 

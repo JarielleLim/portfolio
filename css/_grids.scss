@@ -14,9 +14,9 @@
 }
 
 [class*="col-"]:after {
-  content: ".";
-  display: block;
-  visibility: hidden;
+    content: ".";
+    display: block;
+    visibility: hidden;
 }
 
 .col-1 {
@@ -71,12 +71,19 @@
         margin-bottom: 0;
     }
 }
-
-    html{
-      // background-image: url("../img/dotted-bg.svg");
-      // background-size: cover;
-      // background-repeat: repeat;
-      // width: auto;
-      // background-size: 300px;
-
+@media only screen and (max-width: 870px) {
+    .about-flex {
+        flex-direction: column;
+        text-align: center;
     }
+
+    #about h2 {
+        text-align: center;
+    }
+}
+
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 70%;
+    }
+}

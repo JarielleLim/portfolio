@@ -5,11 +5,6 @@
 @import "normalize";
 @import "font";
 
-/*! ===== GRIDS ===== */
-@import "grids";
-@import "isotope";
-/*! ===== END GRIDS ===== */
-
 /*! ===== BASE ELEMENTS ===== */
 @import "base";
 @import "helpers";
@@ -17,6 +12,11 @@
 @import "nav";
 @import "project";
 /*! ===== END BASE ELEMENTS ===== */
+
+/*! ===== GRIDS ===== */
+@import "grids";
+@import "isotope";
+/*! ===== END GRIDS ===== */
 
 /*! ===== NAVIGATION ===== */
 @import "modules/main_navigation";
