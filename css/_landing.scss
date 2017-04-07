@@ -16,7 +16,13 @@ em {
     padding-top: 5em;
     @include flexcenter;
 
-    img {
+    .jari-pic {}
+
+    .welcome-text {
+        color: $navy;
+    }
+
+    .jari-pic img {
         position: relative;
         max-width: 500px;
         padding-top: 7em;
@@ -39,8 +45,8 @@ em {
         flex-grow: 1;
         text-align: center;
 
-        img{
-          width: 70%;
+        img {
+            width: 70%;
         }
     }
 

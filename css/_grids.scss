@@ -66,23 +66,53 @@
 .col-12 {
     width: 100%;
 }
-@media (min-width: 700px) {
-    .welcome img {
-        margin-bottom: 0;
-    }
-}
+@media (max-width: 870px) {
+    .welcome {
+        h1 {
+            padding: 1em 0 0;
+            text-align: center;
+        }
 
-@media (min-width: 870px) {
-    .about-flex {
+        .welcome-skills {
+            text-align: center;
+            width: 100%;
+        }
+
+        .jari-pic {
+            text-align: center;
+            order: 1;
+        }
+
+        .welcome-text {
+            width: 100%;
+            font-size: 80%;
+            order: 2;
+        }
+
+        .jari-pic img {
+            width: 80%;
+            padding-top: 10em;
+        }
+    }
+
+    #about .about-flex {
         flex-direction: column;
         text-align: center;
+        width: 100%;
     }
 
     #about h2 {
         text-align: center;
+        padding: 1em;
     }
 
-    p{
-      text-align: center;
+    #about .about-text {
+        width: 85%;
+        font-size: 80%;
+    }
+
+    p {
+        text-align: center;
     }
 }
+@media (max-width: 600px) {}
