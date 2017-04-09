@@ -901,6 +901,19 @@ body {
   border-left: 3px solid #F5EBE4;
   padding-left: 2em; }
 
+#line {
+  position: relative; }
+
+#line:after {
+  content: "";
+  background: linear-gradient(to bottom, #A63A41, #FBB03B);
+  position: absolute;
+  width: 5px;
+  left: 20%;
+  top: 0;
+  bottom: 10px;
+  z-index: -1; }
+
 .main-content {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -916,9 +929,14 @@ body {
   flex-wrap: wrap;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
-  justify-content: center; }
+  justify-content: center;
+  margin-left: 6em;
+  -webkit-align-items: left;
+  -ms-flex-align: left;
+  align-items: left; }
   .main-content h2 {
     color: #492939;
+    text-align: center;
     padding-top: 3em; }
   .main-content hr {
     background: transparent;
@@ -929,8 +947,6 @@ body {
     left: 0;
     right: 0;
     margin-bottom: 3em; }
-  .main-content .info {
-    text-align: center; }
   .main-content img {
     width: 90%; }
   .main-content .imagesorter {
@@ -952,6 +968,11 @@ body {
   .main-content .imagesorter img {
     width: 40em;
     padding: 1em; }
+
+.reflect {
+  background: white;
+  width: 100%;
+  padding: 4em 16.66%; }
 
 /*! ===== END BASE ELEMENTS ===== */
 /*! ===== GRIDS ===== */
