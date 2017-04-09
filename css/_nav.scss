@@ -39,7 +39,6 @@
       color: $olive;
        transition: .3s ease;
     }
-
 }
 
 .logo {
@@ -55,11 +54,18 @@
 
   h2{
     color:$cream;
+
+    text-align: center;
+  letter-spacing: 2px;
   }
 
   h3{
     color: $gold;
     font-family: $raleway;
-    letter-spacing: 1px;
+  }
+
+  img{
+    width: 2em;
+    padding-bottom: 3em;
   }
 }

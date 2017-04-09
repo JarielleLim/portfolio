@@ -67,15 +67,32 @@
     width: 100%;
 }
 @media (max-width: 900px) {
-    .welcome {
-        h1 {
-            padding: 1em 0 0;
-            text-align: center;
-            font-size: 3rem;
-            padding: 0 1em;
-            margin-top: 3em;
-        }
+    #main-content .imagesorter img {
+        width: 100%;
+        padding: 1em 0;
+    }
 
+    .citations{
+      h1{
+        text-align: center;
+        font-size: 3em;
+        padding-left:0;
+      }
+
+      h2{
+        text-align: center;
+      }
+    }
+
+    #intro h1 {
+        padding: 1em 0 0;
+        text-align: center;
+        font-size: 3rem;
+        padding: 0 1em;
+        margin-top: 3em;
+    }
+
+    .welcome {
         .welcome-skills {
             text-align: center;
             width: 100%;
@@ -153,9 +170,9 @@
             font-size: 2.5rem;
         }
 
-        hr{
-          margin-top: 1em;
-          margin-bottom: 1em;
+        hr {
+            margin-top: 1em;
+            margin-bottom: 1em;
         }
 
         .col-2 {
@@ -165,17 +182,13 @@
         .col-3 {
             width: 90%;
             padding-top: 0;
-              text-align: center;
+            text-align: center;
         }
 
         .col-5 {
             width: 90%;
             text-align: center;
         }
-    }
-
-    .main-content .imagesorter img {
-        width: 100%;
     }
 }
 @media (max-width: 650px) {

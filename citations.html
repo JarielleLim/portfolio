@@ -9,7 +9,6 @@
 </head>
 
 <body>
-    <!-- START HEADER -->
 
     <section class="nav-bar">
         <div class="nav-container">
@@ -21,40 +20,69 @@
             </ul>
         </div>
     </section>
-    
-    <h1>CITATIONS</h1>
-
-    <h2>Resources</h2>
-    <p>SASS-scss, Prepros</p>
-    <p>Special thanks to <em>Daniele Perazzolo</em> for basic folder structure and introduction to SASS use <a href="https://github.com/dfpera/Portfolio/tree/project-template">link to github file</a></p>
-<p>Special thanks to Ashley Tsang for helping create paper image for description pages</p>
-    <p>Personal Wix Portfolio for some information and styling inspiration: http://jariellelim.wixsite.com/portfolio</p>
-    <!-- <p>Alucubierre font link: http://www.webdesignerdepot.com/2016/11/free-download-alcubierre-typeface/</p>
-    <p>Bourbon font link: <a href="http://jeremyvessey.com/bourbon-grotesque/">http://jeremyvessey.com/bourbon-grotesque/</a></p> -->
-    <p>League spartan font: <a href="https://www.theleagueofmoveabletype.com/league-spartan">https://www.theleagueofmoveabletype.com/league-spartan</a></p>
-    <p>Raleway font: <a href="https://www.theleagueofmoveabletype.com/raleway">https://www.theleagueofmoveabletype.com/raleway</a></p>
-    <p>Nexa (bold and light) font: <a href="http://www.fontfabric.com/nexa-free-font/">http://www.fontfabric.com/nexa-free-font/</a></p>
-
-    <h2>helpful links</h2>
-    <p>Color functions with SASS: https://robots.thoughtbot.com/controlling-color-with-sass-color-functions</p>
-    <p>general guide to SASS features: <a href="http://sass-lang.com/guide">http://sass-lang.com/guide</a></p>
-    <p>grid set-up tutorial and code <a href="https://www.w3schools.com/css/css_rwd_grid.asp">https://www.w3schools.com/css/css_rwd_grid.asp</a></p>
-    <p> downloaded and used jquery for easier use of js <a href="https://jquery.com/">https://jquery.com/</a></p>
-    <p>Used prebuilt js called isotope to create filterable elements: <a href="http://isotope.metafizzy.co/"> http://isotope.metafizzy.co/</a></p>
-    <p>parallax.js for simple parallax animations<a href="http://pixelcog.github.io/parallax.js/">http://pixelcog.github.io/parallax.js/</a></p>
-
     <!-- END HEADER -->
+
     <!-- START CONTENT -->
+    <div class="pagewrap">
+        <div class="no-parallax" data-parallax="scroll" data-image-src="img/gradient.svg">
 
-    <!-- END CONTENT -->
-    <!-- START FOOTER -->
+            <div class="citations">
+                <h1>CITATIONS</h1>
 
-    <!-- END FOOTER -->
+                <section id="#resources">
+                    <h2>General Resources</h2>
+                    <p><a href="http://sass-lang.com/">SASS-scss</a>, <a href="https://prepros.io/">Prepros</a></p>
+                    <p>Special thanks to <em>Daniele Perazzolo</em> for basic folder structure and introduction to SASS use <a href="https://github.com/dfpera/Portfolio/tree/project-template">link to github file</a></p>
+                    <p>Special thanks to <em>Ashley Tsang</em> for helping create paper image for description pages</p>
+                    <p>Personal Wix Portfolio for some information and styling inspiration: http://jariellelim.wixsite.com/portfolio</p>
+                    <p>League spartan font: <a href="https://www.theleagueofmoveabletype.com/league-spartan">https://www.theleagueofmoveabletype.com/league-spartan</a></p>
+                    <p>Raleway font: <a href="https://www.theleagueofmoveabletype.com/raleway">https://www.theleagueofmoveabletype.com/raleway</a></p>
+                    <p>Nexa (bold and light) font: <a href="http://www.fontfabric.com/nexa-free-font/">http://www.fontfabric.com/nexa-free-font/</a></p>
+                </section>
+
+                <section id="#helpful">
+                    <h2>Helpful Links</h2>
+                    <p>Color functions with SASS: https://robots.thoughtbot.com/controlling-color-with-sass-color-functions</p>
+                    <p>general guide to SASS features: <a href="http://sass-lang.com/guide">http://sass-lang.com/guide</a></p>
+                    <p>grid set-up tutorial and code <a href="https://www.w3schools.com/css/css_rwd_grid.asp">https://www.w3schools.com/css/css_rwd_grid.asp</a></p>
+                </section>
+
+                <section id="javascript">
+                    <h2>Javascript Libraries Used</h2>
+                    <p> downloaded and used jquery for easier use of js <a href="https://jquery.com/">https://jquery.com/</a></p>
+                    <p>Used prebuilt js called isotope to create filterable elements: <a href="http://isotope.metafizzy.co/"> http://isotope.metafizzy.co/</a></p>
+                    <p>parallax.js for simple parallax animations<a href="http://pixelcog.github.io/parallax.js/">http://pixelcog.github.io/parallax.js/</a></p>
+                    <p>took smoothscrolling js to implement onto site<a href="https://css-tricks.com/snippets/jquery/smooth-scrolling/">https://css-tricks.com/snippets/jquery/smooth-scrolling/</a></p>
+                    <p>To check if image is loaded completely before showing (prevents isotope clipping)<a href="http://imagesloaded.desandro.com/">http://imagesloaded.desandro.com/</a></p>
+                </section>
+            </div>
+
+
+            <!-- END CONTENT -->
+            <!-- START FOOTER -->
+            <section id="contact">
+                <a href="#proj-info"><img src="img/arrow-up.svg" alt="go back to top"></a>
+                <h2>CONTACT ME AT</h2>
+                <h3>jdlim@sfu.ca</h3>
+
+                <div id="class-info">
+                    <a href="citations.html">citations</a>
+                    <a href="style-guide.html">style-guide</a>
+                </div>
+            </section>
+        </div>
+        <!-- END FOOTER -->
+
+    </div>
     <!-- START SCRIPTS -->
-    <!--[if lt IE 9]>
-      <script src="js/html5shiv.min.js"></script>
-    <![endif]-->
+
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/jquery-3.2.0.min.js"></script>
+    <script src="js/imagesloaded.js"></script>
+    <script src="js/isotope.js"></script>
+    <script src="js/parallax.min.js"></script>
     <script src="js/main.js"></script>
+
     <!-- END SCRIPTS -->
 </body>
 
